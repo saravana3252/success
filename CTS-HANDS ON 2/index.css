@@ -1,0 +1,348 @@
+.myheader {
+  height: 60px;
+}
+.nav1 {
+  color: blue !important;
+  font-size: 30px !important;
+}
+.nav2 {
+  font-size: 25px !important;
+}
+.a {
+  color: blue;
+}
+
+.banner {
+  height: 84vh;
+  /*background-color: gray;*/
+  background-image: url("https://images.pexels.com/photos/1287452/pexels-photo-1287452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  padding: 0px !important;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-content {
+  height: 52vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh;
+  border-radius: 40px;
+}
+.overlay-content h1 {
+  color: white;
+  margin-top: 2vh;
+}
+.overlay-content p {
+  color: white;
+  margin-top: 2vh;
+}
+.mycard {
+  width: 30%;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-color: lightskyblue;
+}
+.c1 {
+  text-align: center;
+}
+.myc {
+  background-color: white;
+  padding: 15px;
+  height: 650px;
+}
+
+.btn2 {
+  margin-right: 10px;
+  width: 60%;
+}
+.btn1 {
+  margin-top: 6px;
+  margin-right: 50px;
+}
+.myb {
+  background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 85vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.content-b {
+  background-color: #fcf0fb;
+}
+
+.mycard {
+  margin-left: 30px !important;
+}
+.p-h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  padding: 30px;
+  width: 40%;
+}
+.package1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mycp {
+  margin-left: 30px;
+  border: 1px dotted black;
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: antiquewhite;
+}
+.list-group-item {
+  background-color: rgba(173, 12, 12, 0.5);
+}
+.footer {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+}
+.container5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.myacc {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
+}
+.acc-h {
+  font-size: 18pt;
+  color: blue;
+}
+.acc-d {
+  font-size: 16pt;
+  margin-top: 10px;
+  color: black;
+}
+.myacc2 {
+  width: 25%;
+  height: auto;
+  background-color: white;
+
+  margin-top: 20px;
+}
+.myacc3 {
+  width: 20%;
+  height: auto;
+  background-color: white;
+
+  margin-top: 20px;
+}
+.myacc4 {
+  width: 20%;
+  height: auto;
+  background-color: white;
+
+  margin-top: 20px;
+}
+@media (max-width: 740px) {
+  .banner {
+    height: 52vh;
+  }
+  .overlay {
+    height: 52vh;
+  }
+  .overlay-content h1 {
+    font-size: 2vh;
+    text-align: center;
+  }
+  .overlay-content p {
+    font-size: 2vh;
+    text-align: center;
+  }
+  .overlay-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn1 {
+    font-size: 10px;
+    width: 80%;
+    margin-bottom: 5px;
+    margin-left: 50px;
+  }
+  .btn2 {
+    margin-right: 10px;
+    width: 60%;
+  }
+
+  .mycard {
+    width: 100%;
+    height: auto;
+  }
+  .myb {
+    height: auto;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myc {
+    height: auto;
+  }
+  .package1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .p-h1 {
+    width: 70%;
+    font-size: 3vh;
+  }
+  .container5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer {
+    height: auto;
+  }
+  .myacc {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .acc-h {
+    font-size: 18pt;
+    color: blue;
+  }
+  .acc-d {
+    font-size: 16pt;
+    margin-top: 10px;
+    color: black;
+  }
+  .myacc2 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+  .myacc3 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+  .myacc4 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1280px) and (min-width: 741px) {
+  .banner {
+    height: 52vh;
+  }
+  .btn1 {
+    width: 80%;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .overlay {
+    height: 52vh;
+  }
+  .overlay-content {
+    height: 35vh;
+    width: 50%;
+  }
+  .overlay-content h1 {
+    font-size: 3vh;
+  }
+  .overlay-content p {
+    font-size: 2vh;
+  }
+  .mycard {
+    width: 100% !important;
+  }
+  .myb {
+    height: auto;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myc {
+    height: auto;
+  }
+  .package1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .p-h1 {
+    width: 50%;
+    font-size: 3vh;
+  }
+  .container5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer {
+    height: auto;
+  }
+  .myacc {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .acc-h {
+    font-size: 18pt;
+    color: blue;
+  }
+  .acc-d {
+    font-size: 16pt;
+    margin-top: 10px;
+    color: black;
+  }
+  .myacc2 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+  .myacc3 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+  .myacc4 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+
+    margin-top: 20px;
+  }
+}
